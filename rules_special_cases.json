@@ -1,0 +1,380 @@
+[
+  {
+    "id": "sc_omariyatayn",
+    "title": "العمريتان",
+    "text": "العمريتان من المسائل الخاصة: (أم، أب، زوج/زوجة). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["أم", "أب", "زوج", "زوجة"],
+    "required_heirs": ["أم", "أب"],
+    "optional_heirs_any": ["زوج", "زوجة"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_akdariyya",
+    "title": "الأكدرية",
+    "text": "الأكدرية من المسائل الخاصة: (زوج، أم، أخت شقيقة/أخت لأب، جد). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخت شقيقة", "أخت لأب", "جد"],
+    "required_heirs": ["زوج", "أم", "جد"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_mushtaraka",
+    "title": "المشتركة",
+    "text": "المشتركة من المسائل الخاصة: (زوج، أم، إخوة لأم، إخوة أشقاء) مع شرط وجود ذكور من الإخوة الأشقاء. تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخ لأم", "أخت لأم", "أخ شقيق", "أخت شقيقة"],
+    "required_heirs": ["زوج", "أم", "أخ شقيق"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم", "أخت شقيقة"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_malikiyya",
+    "title": "المالكية",
+    "text": "المالكية من المسائل الخاصة: (زوج، أم، جد، أخ لأب، إخوة لأم). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "جد", "أخ لأب", "أخ لأم", "أخت لأم"],
+    "required_heirs": ["زوج", "أم", "جد", "أخ لأب"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_shibh_malikiyya",
+    "title": "شبه المالكية",
+    "text": "شبه المالكية من المسائل الخاصة: (زوج، أم، جد، أخ شقيق، إخوة لأم). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "جد", "أخ شقيق", "أخ لأم", "أخت لأم"],
+    "required_heirs": ["زوج", "أم", "جد", "أخ شقيق"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_mubahala",
+    "title": "المباهلة",
+    "text": "المباهلة من المسائل الخاصة: (زوج، أم، أختان شقيقتان/أختان لأب). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخت شقيقة", "أخت لأب"],
+    "required_heirs": ["زوج", "أم"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_umm_al_furokh",
+    "title": "أم الفروخ (الشريحية)",
+    "text": "أم الفروخ (الشريحية) من المسائل الخاصة: (زوج، أم، أختان لأم، أختان شقيقتان/أختان لأب). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخت لأم", "أخت شقيقة", "أخت لأب"],
+    "required_heirs": ["زوج", "أم", "أخت لأم"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "lang": "ar"
+  },
+  {
+    "id": "sc_minbariyya",
+    "title": "المنبرية",
+    "text": "المنبرية من المسائل الخاصة: (زوجة، أب، أم، بنتان). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوجة", "أب", "أم", "بنت"],
+    "required_heirs": ["زوجة", "أب", "أم", "بنت"],
+    "optional_heirs_any": [],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_kharqa",
+    "title": "الخرقاء",
+    "text": "الخرقاء من المسائل الخاصة: (أم، أخت شقيقة/أخت لأب، جد). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["أم", "أخت شقيقة", "أخت لأب", "جد"],
+    "required_heirs": ["أم", "جد"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "sc_marwaniyya",
+    "title": "المروانية",
+    "text": "المروانية من المسائل الخاصة: (زوج، أختان لأم، أختان شقيقتان/أختان لأب). تُعامل وفق حكمها الخاص.",
+    "category": "special_case",
+    "madhhab": "general",
+    "heirs": ["زوج", "أخت لأم", "أخت شقيقة", "أخت لأب"],
+    "required_heirs": ["زوج", "أخت لأم"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_01",
+    "title": "حل المسألة العمرية",
+    "text": "في المسألة العمرية (زوج، أم، أب): يُعطى الزوج النصف فرضًا، وتُعطى الأم ثلث الباقي بعد فرض الزوج، والباقي للأب. أصل المسألة من 6، فيكون للزوج 3 من 6، وللأم 1 من 6، وللأب 2 من 6.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أب"],
+    "required_heirs": ["زوج", "أم", "أب"],
+    "optional_heirs_any": [],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 6,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "3/6", "percent": 50.0 },
+        { "heir": "أم", "count": 1, "share_fraction": "1/6", "percent": 16.67 },
+        { "heir": "أب", "count": 1, "share_fraction": "2/6", "percent": 33.33 }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_02",
+    "title": "حل المسألة العمرية",
+    "text": "ترث الزوجة الربع عند عدم وجود فرع وارث، ثم تُعطى الأم ثلث الباقي بعد فرض الزوجة (قضاء عمر رضي الله عنه)، ثم يأخذ الأب ما بقي تعصيبًا.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوجة", "أم", "أب"],
+    "required_heirs": ["زوجة", "أم", "أب"],
+    "optional_heirs_any": [],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 4,
+      "distribution": [
+        { "heir": "زوجة", "count": 1, "share_fraction": "1/4", "percent": 25.0 },
+        { "heir": "أم", "count": 1, "share_fraction": "1/4", "percent": 25.0 },
+        { "heir": "أب", "count": 1, "share_fraction": "2/4", "percent": 50.0 }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_03",
+    "title": "حل المسألة الأكدرية",
+    "text": "في هذه المسألة: 1) الزوج يرث النصف عند عدم وجود فرع وارث. 2) الأم ترث الثلث بشرط عدم الفرع الوارث وعدم تعدد الإخوة وألا تكون المسألة من العمريتين. 3) عند اجتماع الجد مع الأخت الشقيقة مع وجود صاحب فرض: يُنظر للجد في أفضل الأحوال من (المقاسمة، ثلث الباقي، سدس الكل)، وفي هذه المسألة سُدس الكل أفضل له فيأخذ 1/6. 4) تُضم الأخت الشقيقة أو الأخت لأب إلى الجد فيما بقي ويُقسم بينهما للذكر مثل حظ الأنثيين.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "جد", "أخت شقيقة", "أخت لأب"],
+    "required_heirs": ["زوج", "أم", "جد"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 27,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "9/27", "percent": 33.33 },
+        { "heir": "أم", "count": 1, "share_fraction": "6/27", "percent": 22.22 },
+        { "heir": "جد", "count": 1, "share_fraction": "8/27", "percent": 29.63 },
+        { "heir": "أخت شقيقة", "count": 1, "share_fraction": "4/27", "percent": 14.81 }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_04",
+    "title": "حل أم الفروخ (الشريحية)",
+    "text": "في مسألة أم الفروخ: الزوج له النصف عند عدم الفرع الوارث. الأم لها السدس (لوجود جمع من الإخوة). الأختان الشقيقتان لهما الثلثان لعدم وجود أخ شقيق ومع تحقق الكلالة (لا ولد ولا أب). الإخوة/الأخوات لأم (اثنان فأكثر) لهم الثلث بالسوية بشرط عدم وجود الفرع الوارث وعدم وجود الأصل الوارث المذكر (الأب).",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخت شقيقة", "أخت لأم"],
+    "required_heirs": ["زوج", "أم", "أخت لأم"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 10,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "3/10", "percent": 30.0, "per_head_fraction": "3/10" },
+        { "heir": "أم", "count": 1, "share_fraction": "1/10", "percent": 10.0, "per_head_fraction": "1/10" },
+        { "heir": "أخت شقيقة", "count": 2, "share_fraction": "4/10", "percent": 40.0, "per_head_fraction": "2/10" },
+        { "heir": "أخت لأم", "count": 2, "share_fraction": "2/10", "percent": 20.0, "per_head_fraction": "1/10" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_05",
+    "title": "حل المسألة المنبرية",
+    "text": "الزوجة ترث الثمن لوجود فرع وارث. الأم ترث السدس لوجود الفرع الوارث. الأب يرث السدس مع الفرع الوارث المؤنث، وله الباقي تعصيبًا إن بقي شيء. البنتان ترثان الثلثين عند عدم وجود ابن يعصبهما.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوجة", "أم", "أب", "بنت"],
+    "required_heirs": ["زوجة", "أب", "أم", "بنت"],
+    "optional_heirs_any": [],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 27,
+      "distribution": [
+        { "heir": "زوجة", "count": 1, "share_fraction": "3/27", "percent": 11.11, "per_head_fraction": "3/27" },
+        { "heir": "أم", "count": 1, "share_fraction": "4/27", "percent": 14.81, "per_head_fraction": "4/27" },
+        { "heir": "أب", "count": 1, "share_fraction": "4/27", "percent": 14.81, "per_head_fraction": "4/27" },
+        { "heir": "بنت", "count": 2, "share_fraction": "16/27", "percent": 59.26, "per_head_fraction": "8/27" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_11",
+    "title": "حل مسألة المباهلة",
+    "text": "الزوج له النصف لعدم وجود فرع وارث. الأم لها السدس لوجود جمع من الإخوة (أختان شقيقتان). الأختان الشقيقتان لهما الثلثان عند تحقق الكلالة (لا ولد ولا أب) وعدم وجود أخ شقيق معصب.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخت شقيقة"],
+    "required_heirs": ["زوج", "أم"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 8,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "3/8", "percent": 37.5, "per_head_fraction": "3/8" },
+        { "heir": "أم", "count": 1, "share_fraction": "1/8", "percent": 12.5, "per_head_fraction": "1/8" },
+        { "heir": "أخت شقيقة", "count": 2, "share_fraction": "4/8", "percent": 50.0, "per_head_fraction": "2/8" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_06",
+    "title": "حل المسألة المروانية",
+    "text": "الزوج له النصف لعدم الفرع الوارث. الأختان الشقيقتان لهما الثلثان عند عدم وجود أخ شقيق وتحقق الكلالة (لا ولد ولا أب). الإخوة/الأخوات لأم (اثنان فأكثر) لهم الثلث بالسوية بشرط عدم وجود فرع وارث وعدم وجود أصل وارث مذكر (الأب). الأختان لأب لا ترثان هنا.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أخت شقيقة", "أخت لأم", "أخت لأب"],
+    "required_heirs": ["زوج", "أخت لأم"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 9,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "3/9", "percent": 33.33, "per_head_fraction": "3/9" },
+        { "heir": "أخت شقيقة", "count": 2, "share_fraction": "4/9", "percent": 44.44, "per_head_fraction": "2/9" },
+        { "heir": "أخت لأم", "count": 2, "share_fraction": "2/9", "percent": 22.22, "per_head_fraction": "1/9" }
+      ],
+      "blocked": [
+        { "heir": "أخت لأب", "count": 2, "reason": "لم يُذكر لها نصيب في التأصيل/العول المعطى للمسألة" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_07",
+    "title": "حل المسألة الخرقاء",
+    "text": "في المسألة الخرقاء: الأم ترث الثلث لعدم وجود فرع وارث، وعدم وجود جمع من الإخوة. ثم عند اجتماع الجد لأب مع الأخت الشقيقة مع وجود صاحب فرض: يُنظر للجد في أفضل الأحوال من (المقاسمة للذكر مثل حظ الأنثيين، ثلث الباقي، سدس الكل)، وفي هذه المسألة المقاسمة أفضل له فيرث بالمقاسمة مع الأخت فيما بقي بعد فرض الأم، للذكر مثل حظ الأنثيين.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["أم", "جد", "أخت شقيقة"],
+    "required_heirs": ["أم", "جد"],
+    "optional_heirs_any": ["أخت شقيقة", "أخت لأب"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 9,
+      "distribution": [
+        { "heir": "أم", "count": 1, "share_fraction": "3/9", "percent": 33.33, "per_head_fraction": "3/9" },
+        { "heir": "جد", "count": 1, "share_fraction": "4/9", "percent": 44.44, "per_head_fraction": "4/9" },
+        { "heir": "أخت شقيقة", "count": 1, "share_fraction": "2/9", "percent": 22.22, "per_head_fraction": "2/9" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_08",
+    "title": "حل مسألة المالكية",
+    "text": "الزوج له النصف لعدم وجود فرع وارث. الأم لها السدس لوجود جمع من الإخوة. الجد لأب يأخذ باقي التركة. وعلى رأي مالك لا يرث الإخوة لأب في هذه المسألة، كما أن الإخوة لأم لا يرثون لوجود الأصل الوارث المذكر (الجد لأب).",
+    "category": "special_case_solution",
+    "madhhab": "maliki",
+    "heirs": ["زوج", "أم", "جد", "أخ لأب", "أخ لأم", "أخت لأم"],
+    "required_heirs": ["زوج", "أم", "جد", "أخ لأب"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 6,
+      "blocked": [
+        { "heir": "أخ لأب", "count": 1 },
+        { "heir": "أخ لأم", "count": 1 },
+        { "heir": "أخت لأم", "count": 1 }
+      ],
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "3/6", "percent": 50.0, "per_head_fraction": "3/6" },
+        { "heir": "أم", "count": 1, "share_fraction": "1/6", "percent": 16.67, "per_head_fraction": "1/6" },
+        { "heir": "جد", "count": 1, "share_fraction": "2/6", "percent": 33.33, "per_head_fraction": "2/6" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_09",
+    "title": "حل شبه المالكية",
+    "text": "في مسألة شبه المالكية: الزوج له النصف لعدم وجود فرع وارث. الأم لها السدس لوجود جمع من الإخوة. الجد لأب يأخذ باقي التركة. وعلى رأي أصحاب مالك لا يرث الأخ الشقيق في هذه المسألة، ويُحجب الإخوة لأم لوجود الأصل الوارث المذكر (الجد لأب).",
+    "category": "special_case_solution",
+    "madhhab": "maliki",
+    "heirs": ["زوج", "أم", "جد", "أخ شقيق", "أخ لأم"],
+    "required_heirs": ["زوج", "أم", "جد", "أخ شقيق"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 6,
+      "blocked": [
+        { "heir": "أخ شقيق", "count": 1 },
+        { "heir": "أخ لأم", "count": 2 }
+      ],
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "3/6", "percent": 50.0, "per_head_fraction": "3/6" },
+        { "heir": "أم", "count": 1, "share_fraction": "1/6", "percent": 16.67, "per_head_fraction": "1/6" },
+        { "heir": "جد", "count": 1, "share_fraction": "2/6", "percent": 33.33, "per_head_fraction": "2/6" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_10",
+    "title": "حل المسألة المشتركة (الحمارية)",
+    "text": "الزوج له النصف لعدم وجود فرع وارث. الأم لها السدس لوجود جمع من الإخوة. ثم يُشَرَّك الأشقاء مع الإخوة لأم، فيشترك الجميع في الثلث بالسوية (لا فرق بين ذكر وأنثى) على اعتبار كونهم إخوة لأم، مع إسقاط قرابة الأب في هذه المسألة.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخ شقيق", "أخ لأم"],
+    "required_heirs": ["زوج", "أم", "أخ شقيق"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم", "أخت شقيقة"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 18,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "9/18", "percent": 50.0, "per_head_fraction": "9/18" },
+        { "heir": "أم", "count": 1, "share_fraction": "3/18", "percent": 16.67, "per_head_fraction": "3/18" },
+        { "heir": "أخ شقيق", "count": 1, "share_fraction": "2/18", "percent": 11.11, "per_head_fraction": "2/18" },
+        { "heir": "أخ لأم", "count": 2, "share_fraction": "4/18", "percent": 22.22, "per_head_fraction": "2/18" }
+      ]
+    },
+    "lang": "ar"
+  },
+  {
+    "id": "special_case_solution_12",
+    "title": "حل المسألة المشتركة (الحمارية)",
+    "text": "الزوج له النصف لعدم وجود فرع وارث. الأم لها السدس لوجود جمع من الإخوة. ثم يُشَرَّك الأشقاء مع الإخوة لأم، فيشترك الجميع في الثلث بالسوية (لا فرق بين ذكر وأنثى) على اعتبار كونهم إخوة لأم، مع إسقاط قرابة الأب في هذه المسألة.",
+    "category": "special_case_solution",
+    "madhhab": "general",
+    "heirs": ["زوج", "أم", "أخ شقيق", "أخت شقيقة", "أخ لأم", "أخت لأم"],
+    "required_heirs": ["زوج", "أم", "أخ شقيق"],
+    "optional_heirs_any": ["أخ لأم", "أخت لأم", "أخت شقيقة"],
+    "conditions": {},
+    "post_tasil": {
+      "origin": 12,
+      "distribution": [
+        { "heir": "زوج", "count": 1, "share_fraction": "6/12", "percent": 50.0, "per_head_fraction": "6/12" },
+        { "heir": "أم", "count": 1, "share_fraction": "2/12", "percent": 16.67, "per_head_fraction": "2/12" },
+        { "heir": "أخ شقيق", "count": 1, "share_fraction": "1/12", "percent": 8.33, "per_head_fraction": "1/12" },
+        { "heir": "أخت شقيقة", "count": 1, "share_fraction": "1/12", "percent": 8.33, "per_head_fraction": "1/12" },
+        { "heir": "أخ لأم", "count": 1, "share_fraction": "1/12", "percent": 8.33, "per_head_fraction": "1/12" },
+        { "heir": "أخت لأم", "count": 1, "share_fraction": "1/12", "percent": 8.33, "per_head_fraction": "1/12" }
+      ]
+    },
+    "lang": "ar"
+  }
+]

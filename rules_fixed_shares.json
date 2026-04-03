@@ -1,0 +1,261 @@
+[
+{
+  "id":"share_01",
+  "title":"أصحاب الفروض (الزوجة)",
+  "text":"الزوجة من أصحاب الفروض.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["زوجة"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_01",
+  "title":"أصحاب الفروض (الزوج)",
+  "text":"الزوج من أصحاب الفروض.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["زوج"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id": "share_19",
+  "title": "أصحاب الفروض (الإخوة لأم)",
+  "text": "الإخوة لأم (أخ/أخت لأم) من أصحاب الفروض.",
+  "category": "fixed_share",
+  "madhhab": "general",
+  "heirs":["أخ لأم","أخت لأم"],
+  "conditions": [],
+  "lang": "ar"
+},
+{
+  "id":"share_12",
+  "title":"أصحاب الفروض (الأم)",
+  "text":"الأم من أصحاب الفروض.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["الأم"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_12",
+  "title":"أصحاب الفروض (الجدة)",
+  "text":"الجدة (أم الأم أو أم الأب وإن علون) من أصحاب الفروض.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أم لأم", "أم الأم","أم لأب","أم الأب", "أم أم الأم", "أم أم الأب", "أم أب الأب", "أم أم أب الأب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_01",
+  "title":"فرض الزوجة",
+  "text":"الزوجة ترث الربع عند غياب الفرع الوارث (الأبناء والبنات وإن نزلوا).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["زوجة"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_02",
+  "title":"فرض الزوجة",
+  "text":"الزوجة ترث الثمن عند وجود الفرع الوارث.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["زوجة"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_03",
+  "title":"فرض الزوج",
+  "text":"الزوج يرث النصف عند غياب الفرع الوارث (الأبناء والبنات وإن نزلوا).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["زوج"],
+  "conditions":[],
+   "lang":"ar"
+},
+{
+  "id":"share_04",
+  "title":"فرض الزوج",
+  "text":"الزوج يرث الربع عند وجود الفرع الوارث.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["زوج"],
+  "conditions":[],
+   "lang":"ar"
+},
+{
+  "id":"share_05",
+  "title":"فرض الابنة",
+  "text":"البنت (الابنة) ترث النصف إذا انفردت ولم يوجد مُعصِّب (ابن).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["بنت"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_06",
+  "title":"فرض الابنة",
+  "text":"البنت (الابنة) تشترك في الثلثين عند التعدد (بنتان فأكثر) مع عدم وجود مُعصِّب (ابن).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["بنت"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_07",
+  "title":"فرض بنت الابن",
+  "text":"بنت الابن ترث النصف إذا انفردت ولم يوجد مُعصِّب (ابن ابن) ولم يوجد فرع وارث أعلى منها (ابن أو بنت).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["بنت ابن", "بنت ابن ابن"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_08",
+  "title":"فرض بنت الابن",
+  "text":"بنت الابن تشترك في الثلثين إذا تعددن ولم يوجد مُعصِّب (ابن ابن) ولم يوجد فرع وارث أعلى منها. وترث السدس إذا لم يوجد مُعصِّب (ابن ابن) ووجد فرع وارث مؤنث أعلى منها وارث للنصف.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["بنت ابن", "بنت ابن ابن"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_09",
+  "title":"فرض الأب",
+  "text":"الأب يرث السدس عند وجود الفرع الوارث (الأبناء والبنات وإن نزلوا).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_10",
+  "title":"فرض الأم",
+  "text":"الأم ترث الثلث إذا لم يوجد فرع وارث (الأبناء والبنات وإن نزلوا) ولم يوجد جمع من الإخوة.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أم"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_11",
+  "title":"فرض الأم",
+  "text":"الأم ترث السدس عند وجود فرع وارث أو وجود جمع من الإخوة.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أم"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_12",
+  "title":"فرض الجدة",
+  "text":"الجدة (أم الأم أو أم الأب وإن علون) ترث السدس عند عدم وجود الأم.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أم لأم", "أم الأم","أم لأب","أم الأب", "أم أم الأم", "أم أم الأب", "أم أب الأب", "أم أم أب الأب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_13",
+  "title":"فرض الجدة",
+  "text":"عند تعدد الجدات وتساويهن في القرب, فالسدس بينهن هن فيه شريكات, مثل: أم أم مع أم أب أو أم أم الأم مع أم أم الأب",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أم لأم", "أم الأم","أم لأب","أم الأب", "أم أم الأم", "أم أم الأب", "أم أب الأب", "أم أم أب الأب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_14",
+  "title":"فرض الأخت الشقيقة",
+  "text":"الأخت الشقيقة ترث النصف إذا انفردت ولم يوجد مُعصِّب (أخ شقيق) ولم يوجد فرع وارث ولم يوجد أصل وارث من الذكور (أب وإن علا).",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أخت شقيقة"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_15",
+  "title":"فرض الأخت الشقيقة",
+  "text":"الأخت الشقيقة تشترك في الثلثين عند التعدد (أختان فأكثر) مع عدم وجود مُعصِّب (أخ شقيق) وعدم وجود فرع وارث وعدم وجود أصل وارث من الذكور.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أخت شقيقة"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_16",
+  "title":"فرض الأخت لأب",
+"text":"الأخت لأب ترث النصف إذا انفردت ولم يوجد مُعصِّب (أخ لأب) ولم يوجد فرع وارث ولم يوجد أصل وارث من الذكور (أب وإن علا) ولم يوجد إخوة/أخوات أشقاء. ",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أخت لأب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_17",
+  "title":"فرض الأخت لأب",
+"text":"الأخت لأب تشترك في الثلثين عند التعدد (أختان لأب فأكثر) مع عدم وجود مُعصِّب (أخ لأب) وعدم وجود فرع وارث وعدم وجود أصل وارث من الذكور (أب وإن علا) وعدم وجود إخوة/أخوات أشقاء.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أخت لأب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id":"share_18",
+  "title":"فرض الأخت لأب",
+"text":"الأخت لأب ترث السدس إذا لم يوجد مُعصِّب (أخ لأب) ووجدت أخت شقيقة وارثة للنصف.",
+  "category":"fixed_share",
+  "madhhab":"general",
+  "heirs":["أخت لأب"],
+  "conditions":[],
+  "lang":"ar"
+},
+{
+  "id": "share_19",
+  "title": "فرض الإخوة لأم",
+  "text": "الإخوة لأم (أخ/أخت لأم) يرثون الثلث بشرط التعدد, وعدم وجود فرع وارث, وعدم وجود أصل وارث من الذكور (أب).",
+  "category": "fixed_share",
+  "madhhab": "general",
+  "heirs":["أخ لأم","أخت لأم"],
+  "conditions": [],
+  "lang": "ar"
+},
+{
+  "id": "share_20",
+  "title": "فرض الإخوة لأم",
+  "text": "الإخوة لأم (أخ/أخت لأم) يرثون السدس بشرط الانفراد (أخ لأم واحد فقط أو أخت لأم واحدة فقط), وعدم وجود فرع وارث, وعدم وجود أصل وارث من الذكور (أب).",
+  "category": "fixed_share",
+  "madhhab": "general",
+  "heirs":["أخ لأم","أخت لأم"],
+  "conditions": [],
+  "lang": "ar"
+},
+{
+  "id":"share_21",
+  "title":"فرض الجد لأب",
+  "text":"الجد لأب يرث السدس بشرط عدم وجود الأب ووجود الفرع الوارث.",
+  "category":"fixed_share","madhhab":"general",
+  "heirs":["أب لأب","جد لأب", "أب الأب","أب أب الأب"],
+  "conditions":[],
+  "lang":"ar"
+}
+]
